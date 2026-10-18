@@ -1,0 +1,55 @@
+# ardot-mobile-app-multi-screen (移动端多屏 App 原型) — 完整文本
+
+本文件为 llms.txt 标准的「完整版」，供长上下文模型一次性读取本仓库的完整说明。
+
+## 这是什么
+
+`ardot-mobile-app-multi-screen` 是一个 Agent Skill 发布包，分类 设计工具 / Design，版本 1.0.0。
+
+一句话：在 Ardot 画布上一次产出多个移动端 App 屏幕（首页 / 列表 / 详情 / 编辑 / 第三方打通等）——统一使用 iPhone 尺寸、状态栏、底部胶囊标签栏与单一点缀色，逐屏按既定设计规格比对，避免多屏之间尺寸 / 间距 / 配色漂移。
+
+## 解决什么问题
+
+一次画一整套 App 页面，尺寸 / 间距 / 配色不漂移。对应典型提问：
+
+```text
+「怎么一次画一整套 App 页面」
+「多屏风格怎么统一」
+「按 iPhone 尺寸出一套移动端原型」
+```
+
+## 特性
+
+- 一次出多屏：首页 / 列表 / 详情 / 编辑 / 第三方打通等成套产出
+- 统一基底：iPhone 尺寸、状态栏、底部胶囊标签栏一致
+- 单点缀色：全画布只用一个点缀色，控制视觉统一
+- 逐屏规格比对：以既定设计规格为唯一参照，不逐屏自由发挥
+- 防漂移：避免多屏之间尺寸 / 间距 / 配色各自漂移
+- 多语种：中 / 英 / 日 / 韩 / 西 / 法 / 德 / 阿（核心 8 种）
+
+## 快速开始
+
+```bash
+# 1. 克隆本仓库
+git clone https://github.com/zhaoxinghua09-cell/ardot-mobile-app-multi-screen.git
+cd ardot-mobile-app-multi-screen
+
+# 2. 查看技能主文件（iPhone 尺寸规格、胶囊标签栏、单点缀色口径）
+cat SKILL.md
+
+# 3. 把技能目录放进你的 Agent 技能目录（示例：WorkBuddy）
+#    cp -r . ~/.workbuddy/skills/ardot-mobile-app-multi-screen/
+```
+
+## 触发词
+
+Ardot 多屏 · 移动端 App · App 原型 · iPhone 尺寸稿 · 多屏统一风格 · UI 原型 · mobile app screens · mockup。
+
+## 许可与权利
+
+MIT 许可。权利人「赵兴华 / Steven Zhao·China」。MedXpert、SynomosAI、LGD 等为项目标识，均未申请实体注册、未申请商标注册。完整条款见 LICENSE。联系：zhaoxinghua06@126.com ｜ ORCID 0009-0001-0512-1237。
+
+## 链接
+
+- 仓库: https://github.com/zhaoxinghua09-cell/ardot-mobile-app-multi-screen
+- 技能主文件: https://github.com/zhaoxinghua09-cell/ardot-mobile-app-multi-screen/blob/main/SKILL.md
